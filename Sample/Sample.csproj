@@ -92,7 +92,7 @@
     </None>
     <AppDesigner Include="Properties\" />
     <Content Include="Vocabulary.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
