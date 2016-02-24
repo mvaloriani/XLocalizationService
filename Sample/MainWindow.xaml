@@ -1,0 +1,32 @@
+﻿<Window x:Class="Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel>
+            <TextBlock  Name="Sample1TextBlock" Text="string1" TextAlignment="Center" />
+            <TextBlock  Name="Sample2TextBlock" Text="string2" TextAlignment="Center" />
+        </StackPanel>
+
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock  Name="KeyTextBlock" Text="string1" TextAlignment="Center" Grid.Column="0"  />
+            <TextBox  Name="KeyTextBox" Text="#" TextAlignment="Center" Width="Auto" Grid.Column="1"/>
+            <Button  Name="KeyButton" Width="Auto" Grid.Column="2" Click="KeyButton_Click" />
+
+        </Grid>
+        <TextBlock  Name="ResultTextBlock" Text="value of the key" TextAlignment="Center" />
+
+        <ComboBox Name="LanguagesComboBox" SelectionChanged="LanguagesComboBox_SelectionChanged"/>
+
+    </StackPanel>
+</Window>
