@@ -1,0 +1,2 @@
+# XLocalizationService
+SimplePCL for lacalization
