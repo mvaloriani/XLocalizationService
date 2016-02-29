@@ -99,6 +99,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\XLocalizationService.Win\XLocalizationService.Win.csproj">
+      <Project>{953ca13a-76f5-411e-ab14-8c9017ba2769}</Project>
+      <Name>XLocalizationService.Win</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XLocalizationService\XLocalizationService.csproj">
       <Project>{fb57c6ff-8781-4eca-a36d-dbe0b53cdef0}</Project>
       <Name>XLocalizationService</Name>

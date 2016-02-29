@@ -36,6 +36,8 @@ namespace Sample
             this.LanguagesComboBox.SelectedIndex=0;
 
             refreshLabel();
+
+            
         }
 
 

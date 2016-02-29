@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>XLocalizationService</id>
+        <version>1.0.8</version>
+        <title>XLocalizationService</title>
+        <authors>Matteo Valoriani</authors>
+        <owners>Matteo Valoriani</owners>
+        <projectUrl>https://github.com/mvaloriani/XLocalizationService</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple PCL to localizate applcation</description>
+        <tags>WPF, Xamarin</tags>
+    </metadata>
+    <files>
+        <file src="XLocalizationService.Win\bin\Debug\XLocalizationService.Win.dll" target="lib\net45\XLocalizationService.Win.dll" />
+        <file src="XLocalizationService\bin\Release\XLocalizationService.dll" target="lib\XLocalizationService.dll" />
+        <file src="XLocalizationService\bin\Release\SampleVocabulary.csv" target="SampleVocabulary.csv" />
+    </files>
+</package>

@@ -4,12 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sample"
+        
+        xmlns:ls="clr-namespace:XLocalizationService;assembly=XLocalizationService.Win"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+        <ls:LanguageConverter x:Key="LangConverter" />
+    </Window.Resources>
+
     <StackPanel>
         <StackPanel>
             <TextBlock  Name="Sample1TextBlock" Text="string1" TextAlignment="Center" />
             <TextBlock  Name="Sample2TextBlock" Text="string2" TextAlignment="Center" />
+            <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example1|casa}"/>
         </StackPanel>
 
         <Grid >

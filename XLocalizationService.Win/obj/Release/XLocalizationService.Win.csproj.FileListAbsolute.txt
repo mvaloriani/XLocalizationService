@@ -1,0 +1,8 @@
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Release\SampleVocabulary.csv
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Release\XLocalizationService.Win.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Release\XLocalizationService.Win.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Release\XLocalizationService.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Release\XLocalizationService.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Release\XLocalizationService.Win.csprojResolveAssemblyReference.cache
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Release\XLocalizationService.Win.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Release\XLocalizationService.Win.pdb
