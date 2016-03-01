@@ -12,6 +12,7 @@
         <tags>WPF, Xamarin</tags>
     </metadata>
     <files>
+        <file src="XLocalizationService.Win\bin\Release\XLocalizationService.dll" target="lib\net45\XLocalizationService.dll" />
         <file src="XLocalizationService.Win\bin\Debug\XLocalizationService.Win.dll" target="lib\net45\XLocalizationService.Win.dll" />
         <file src="XLocalizationService\bin\Release\XLocalizationService.dll" target="lib\XLocalizationService.dll" />
         <file src="XLocalizationService\bin\Release\SampleVocabulary.csv" target="SampleVocabulary.csv" />
