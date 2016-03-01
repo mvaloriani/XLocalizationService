@@ -64,6 +64,11 @@ Example of use in XAML (at the moment supported only on WPF):
 ```XML
  xmlns:ls="clr-namespace:XLocalizationService;assembly=XLocalizationService.Win"
  
+ or 
+ 
+ xmlns:ls="https://github.com/mvaloriani/XLocalizationService"
+
+ 
 <Window.Resources> 
          <ls:LanguageConverter x:Key="LangConverter" /> 
 </Window.Resources> 
