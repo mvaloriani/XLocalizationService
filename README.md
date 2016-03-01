@@ -52,7 +52,7 @@ or
  String localizedString = LocalizationService.LS.GetValue("#example", "fallBackValue)";
 ```
 
-Example of use in XAML:
+Example of use in XAML (at the moment supported only on WPF):
 ```XML
  xmlns:ls="clr-namespace:XLocalizationService;assembly=XLocalizationService.Win"
  
