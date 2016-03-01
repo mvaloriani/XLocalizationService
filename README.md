@@ -59,9 +59,15 @@ or
  String localizedString = LocalizationService.LS.GetValue("#example", "fallBackValue)";
 ```
 
+
 Example of use in XAML (at the moment supported only on WPF):
 ```XML
  xmlns:ls="clr-namespace:XLocalizationService;assembly=XLocalizationService.Win"
+ 
+ or 
+ 
+ xmlns:ls="https://github.com/mvaloriani/XLocalizationService"
+
  
 <Window.Resources> 
          <ls:LanguageConverter x:Key="LangConverter" /> 
@@ -70,6 +76,8 @@ Example of use in XAML (at the moment supported only on WPF):
  <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key}"/>
  
  <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key|fallbackValue}"/>
+ 
+  <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key|fallbackValue| strinfToConcatenate}"/>
 ```
 If the fallBack value is not set and key is not found, the return value is  `String.Empty`
 
