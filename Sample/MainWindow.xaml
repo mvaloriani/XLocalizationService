@@ -18,7 +18,7 @@
         <StackPanel>
             <TextBlock  Name="Sample1TextBlock" Text="string1" TextAlignment="Center" />
             <TextBlock  Name="Sample2TextBlock" Text="string2" TextAlignment="Center" />
-            <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example1|casa}"/>
+            <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example1|casa| 3}"/>
         </StackPanel>
 
         <Grid >

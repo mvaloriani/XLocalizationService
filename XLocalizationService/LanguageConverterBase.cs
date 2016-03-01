@@ -18,12 +18,15 @@ namespace XLocalizationService
             {
                 string[] parameters = parameterString.Split('|');
 
+                string r = string.Empty;
                 if (parameters.Count() == 1)
-                    return LocalizationService.LS.GetValue(parameters[0]);
+                    r = LocalizationService.LS.GetValue(parameters[0]);
                 if (parameters.Count() >= 2)
-                    return LocalizationService.LS.GetValue(parameters[0], parameters[1]);
-                else
-                    return string.Empty;
+                    r = LocalizationService.LS.GetValue(parameters[0], parameters[1]);
+                if (parameters.Count() >= 3)
+                    r = r + parameters[2];
+                
+                    return r;
             }
 
 
