@@ -22,14 +22,21 @@ The file have to follow these rules:
 **Example**
 
 ﻿﻿﻿Key,it-IT,en-US
-﻿﻿﻿\#it-it,Italiano,Italian
+\#it-it,Italiano,Italian
+
 \#en-en,Inglese,English
+
 \#,,
+
 \#set,Imposta,Set
+
 \#error,Errore,Error
+
 \#example, Questo e' un esempio di stringa, This is a sample
+
 \#example2, "Questo e' un esempio, con anche una virgola2", "This is a sample, with comma"
-﻿
+
+
 
 
 
