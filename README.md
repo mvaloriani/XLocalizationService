@@ -41,14 +41,20 @@ The file have to follow these rules:
 
 
 ## How to use ##
-Load vocabulary
+Load vocabulary as contet
 
 ```csharp
 StreamReader sr = new StreamReader("Vocabulary.csv"); 
 LocalizationService.LS.ChangeVocabulary(sr.BaseStream); 
-
 ```
-  
+
+Load vocabulary as embedded resource (Xamarin)
+			
+```csharp
+var assembly = typeof(anyClassOfYourDll).GetTypeInfo().Assembly;
+Stream stream= assembly.GetManifestResourceStream("myNameSpace.Vocabulary.csv"); 
+LocalizationService.LS.ChangeVocabulary(stream); 
+```
 
 Example of use in code behind:
 ```csharp
