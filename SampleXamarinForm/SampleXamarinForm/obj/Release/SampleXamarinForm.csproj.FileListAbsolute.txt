@@ -1,0 +1,2 @@
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarinForm\SampleXamarinForm\obj\Release\SampleXamarinForm.csprojResolveAssemblyReference.cache
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarinForm\SampleXamarinForm\obj\Release\Page1.xaml.g.cs

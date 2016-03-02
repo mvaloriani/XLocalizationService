@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:ls="clr-namespace:XLocalizationService;assembly=XLocalizationService.Form"             
+             x:Class="SampleXamarin.Page1">
+
+  <ContentPage.Resources>
+    <ls:LanguageConverter x:Key="LangConverter" />
+  </ContentPage.Resources>
+
+  <StackPanel>
+    <StackPanel>
+      <Label  Name="Sample1TextBlock" Text="string1" TextAlignment="Center" />
+      <Label  Name="Sample2TextBlock" Text="string2" TextAlignment="Center" />
+      <Label Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example1|casa| 3}"/>
+    </StackPanel>
+
+       
+  </StackPanel>
+
+</ContentPage>

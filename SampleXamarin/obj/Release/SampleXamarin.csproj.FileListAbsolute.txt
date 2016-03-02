@@ -1,0 +1,16 @@
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\SampleXamarin.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\SampleXamarin.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\obj\Release\Page1.xaml.g.cs
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\obj\Release\SampleXamarin.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\obj\Release\SampleXamarin.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\SampleVocabulary.csv
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\XLocalizationService.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\XLocalizationService.Form.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\XLocalizationService.Form.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\bin\Release\XLocalizationService.pdb
+C:\Users\m-att\Sources\GitHub\XLocalizationService\SampleXamarin\obj\Release\SampleXamarin.csprojResolveAssemblyReference.cache
