@@ -84,6 +84,8 @@ Example of use in XAML (at the moment supported only on WPF):
  <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key|fallbackValue}"/>
  
   <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key|fallbackValue| strinfToConcatenate}"/>
+  
+  <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#key|fallbackValue| strinfToConcatenate | stringToConcatenateBefore}"/>
 ```
 If the fallBack value is not set and key is not found, the return value is  `String.Empty`
 
