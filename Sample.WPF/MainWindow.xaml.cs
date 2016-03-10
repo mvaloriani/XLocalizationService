@@ -22,8 +22,17 @@ namespace Sample
     /// </summary>
     public partial class MainWindow : Window
     {
+
+       
+
         public MainWindow()
         {
+            LocalizationService XLS = LocalizationService.NewXLS();
+            StreamReader sr1 = new StreamReader("Vocabulary.csv");
+            XLS.ChangeVocabulary(sr1.BaseStream);
+            this.Resources.Add("localLangConv", new XLocalizationService.XLSConverter(XLS));
+
+
             InitializeComponent();
 
             //this is a file as content
