@@ -27,7 +27,6 @@ namespace XLocalizationService
                     r = r + parameters[2];
                 if (parameters.Count() >= 4)
                     r = parameters[3] + r;
-
                 return r;
             }
 

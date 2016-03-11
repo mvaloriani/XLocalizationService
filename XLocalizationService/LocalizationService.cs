@@ -44,6 +44,10 @@ namespace XLocalizationService
             }
         }
 
+        public static LocalizationService NewXLS()
+        {
+            return new LocalizationService();
+        }
 
         private LocalizationService()
         {
