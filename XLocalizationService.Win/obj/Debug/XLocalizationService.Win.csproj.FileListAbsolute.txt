@@ -1,8 +1,0 @@
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Debug\XLocalizationService.Win.csprojResolveAssemblyReference.cache
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Debug\SampleVocabulary.csv
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Debug\XLocalizationService.Win.dll
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Debug\XLocalizationService.Win.pdb
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Debug\XLocalizationService.dll
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\bin\Debug\XLocalizationService.pdb
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Debug\XLocalizationService.Win.dll
-C:\Users\m-att\Sources\GitHub\XLocalizationService\XLocalizationService.Win\obj\Debug\XLocalizationService.Win.pdb

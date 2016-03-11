@@ -18,8 +18,8 @@
         <StackPanel>
             <TextBlock  Name="Sample1TextBlock" Text="string1" TextAlignment="Center" />
             <TextBlock  Name="Sample2TextBlock" Text="string2" TextAlignment="Center" />
-            <TextBlock Text="{Binding Converter={ls:XLSConverter}, ConverterParameter=#example|casa| 3}"/>
-            <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example|casa| 3}"/>
+            <TextBlock Text="{Binding Converter={StaticResource LangConverter}, ConverterParameter=#example|casa| 3| gg |}"/>
+            <TextBlock Text="{Binding Converter={ls:XLSConverter}, ConverterParameter=#example|casa| 3| cc |}"/>
             <TextBlock Text="{Binding Converter={StaticResource localLangConv}, ConverterParameter=#example1|casa| 3}"/>
         </StackPanel>
 
