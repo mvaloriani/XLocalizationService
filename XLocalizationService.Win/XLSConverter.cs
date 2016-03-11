@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace XLocalizationService.Converter
+namespace XLocalizationService
 {
     public class XLSConverter : MarkupExtension, IValueConverter
     {

@@ -30,7 +30,7 @@ namespace Sample
             LocalizationService XLS = LocalizationService.NewXLS();
             StreamReader sr1 = new StreamReader("Vocabulary.csv");
             XLS.ChangeVocabulary(sr1.BaseStream);
-            this.Resources.Add("localLangConv", new XLocalizationService.Converter.XLSConverter(XLS));
+            this.Resources.Add("localLangConv", new XLocalizationService.XLSConverter(XLS));
 
 
             InitializeComponent();
