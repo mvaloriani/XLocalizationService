@@ -25,8 +25,10 @@ namespace XLocalizationService
                     r = LocalizationService.LS.GetValue(parameters[0], parameters[1]);
                 if (parameters.Count() >= 3)
                     r = r + parameters[2];
-                
-                    return r;
+                if (parameters.Count() >= 4)
+                    r = parameters[3] + r;
+
+                return r;
             }
 
 
