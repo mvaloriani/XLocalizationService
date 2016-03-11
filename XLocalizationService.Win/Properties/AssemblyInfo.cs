@@ -17,8 +17,8 @@ using System.Windows;
 [assembly: AssemblyCulture("")]
 
 
-[assembly: XmlnsPrefix("https://github.com/mvaloriani/", "mv")]
-[assembly: XmlnsDefinition("https://github.com/mvaloriani/XLocalizationService", "XLocalizationService")]
+//[assembly: XmlnsPrefix("https://github.com/mvaloriani/", "mv")]
+//[assembly: XmlnsDefinition("https://github.com/mvaloriani/XLocalizationService", "XLocalizationService")]
 
 
 // Setting ComVisible to false makes the types in this assembly not visible 
